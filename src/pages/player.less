@@ -1,0 +1,69 @@
+@keyframes rotate{
+	from{transform:rotate(0deg)}
+	to{transform:rotate(360deg)}
+}
+
+.player-page {
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,.8) 100%);
+	.player{
+		width: 95%;
+		margin: 0 auto;
+		padding-bottom: 30px;
+		.info{
+			align-items: center;
+			margin-bottom: 25px;
+			.cover{
+				width: 100px;
+				height: 100px;
+				margin-right: 25px;
+				img{
+					width: 100%;
+					border-radius: 50%;
+					box-shadow: 0px 0px 5px #fff;
+					animation: rotate 15s linear 0s infinite;	
+				}
+			}
+			.title{
+				font-size: 20px;
+				font-weight: 400;
+				margin-bottom: 15px;
+				color: #fff;
+			}
+			.artist{
+				font-size: 14px;
+				font-weight: 300;
+				color: #ddd;
+			}
+		}
+		.play-progress{
+			color: #ddd;
+		}
+		.controller{
+			margin-top: 20px;
+			padding: 0 25px;
+			position: relative;
+			.volume-wrapper{
+				width: 180px;
+				display: flex;
+				align-items: center;
+				position: absolute;
+				left: 136px;
+				top: 0;
+				.components-progress{
+					width: 70%;
+					margin-left: 0;
+					display: none;
+				}
+			}
+			.volume-wrapper:hover{
+				.components-progress{
+					display: block;
+				}
+			}
+		}
+	}
+}
