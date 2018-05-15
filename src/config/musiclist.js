@@ -40,13 +40,21 @@ export const MUSIC_LIST = [
 		artist: 'Simon & Garfunkel',
 		file: 'http://oj4t8z2d5.bkt.clouddn.com/sound-of-silence.mp3',
 		cover: 'http://oj4t8z2d5.bkt.clouddn.com/sound-of-silence.jpg'
-	}
-	,{
+	},
+	{
 		id: 7,
 		"title": "Unfortunate Soul",
 		"artist": "Kailee Morgue",
 		"cover": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001OVk6n2iDPjp.jpg?max_age=2592000",
 		"file": "https://dl.stream.qqmusic.qq.com/M800001NtHph0t8wOe.mp3?vkey=B0CC00137BE343CAE2B9A5A5FE7671A928EB8AC36FBFF45D4C27B089EE6CB8A9B0D160E0834AEA364B42C8BB323693994E400B2AC3AF429C&guid=1259701895&uid=0&fromtag=30",
+		"lrc": "https://api.hibai.cn/music/index/music?id=401723037&type=lrc"
+	},
+	{
+		id: 8,
+		"title": "故乡",
+		"artist": "许巍",
+		"cover": "http://maizhetao.com/music/guxiang.jpg",
+		"file": "http://maizhetao.com/music/guxiang.mp3",
 		"lrc": "https://api.hibai.cn/music/index/music?id=401723037&type=lrc"
 	},
 ]
